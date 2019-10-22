@@ -61,7 +61,7 @@
                 android:background="@drawable/texview_design"
                 android:gravity="end"
                 android:padding="10dp"
-                android:text="Total cards: 0"
+                android:text="Total Added: 0"
                 android:textColor="@android:color/white"
 
                 />
