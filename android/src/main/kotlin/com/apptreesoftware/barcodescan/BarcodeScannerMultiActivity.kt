@@ -109,7 +109,7 @@ class BarcodeScannerMultiActivity : Activity(), ZXingScannerView.ResultHandler {
             onResume()
         }else{
             nums.add(nums.lastIndex+1 ,result.toString())
-            txtData.text = "Total cards: ${nums.lastIndex+1}"
+            txtData.text = "Total Added: ${nums.lastIndex+1}"
             Toast.makeText(this,"Added ${result.toString()} ",Toast.LENGTH_SHORT).show()
             onResume()
         }
